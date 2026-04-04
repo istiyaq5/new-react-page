@@ -1,11 +1,9 @@
-import React from 'react'
-
 const blogs = () => {
   return (
     <div>
-      <h1>he</h1>
+      <h1>hello again !!! </h1>
     </div>
-  )
-}
+  );
+};
 
-export default blogs
+export default blogs;

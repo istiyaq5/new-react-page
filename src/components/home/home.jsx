@@ -1,11 +1,13 @@
+import Background from "../Background";
+import Hero from "../Hero";
+
 function Home() {
   return (
-    <div>
-      <hl> I am from Home Component </hl>
-      <h1>hello 
-        <p>this is my world</p>
-      </h1>
+    <div className="relative min-h-screen overflow-hidden bg-slate-950 text-slate-100">
+      <Background />
+      <Hero />
     </div>
   );
 }
+
 export default Home;

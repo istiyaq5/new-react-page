@@ -1,13 +1,11 @@
-import React from 'react'
-import Home from './components/home/home'
+import Home from "./components/home/home";
 
 const App = () => {
   return (
-    <div>
-    <Home></Home>  
-    
+    <div className="app-shell">
+      <Home />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
